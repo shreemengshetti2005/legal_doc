@@ -1,0 +1,20 @@
+llm:
+  mistral_api_key: ""
+  deepseek_api_key: ""
+  max_tokens: 4096
+
+  # Add Base URLs
+  mistral_base_url: "https://api.mistral.ai/v1" # Mistral API URL
+  deepseek_base_url: "https://api.deepseek.com/v1" # DeepSeek API URL
+
+pdf:
+  extraction_engine: "pdfplumber" # Options: pdfplumber, PyMuPDF
+  export_formats: ["pdf", "json", "txt"]
+
+neo4j:
+  uri: "neo4j+s://bfdbab01c.databases.neo4j.io"
+  user: "neo4j"
+  password: "qkNESC3E2KixsV70ZUbUAaESX0SYagLcl494a5G-Mos"
+
+export:
+  output_dir: "./export/" # Added trailing slash for consistency

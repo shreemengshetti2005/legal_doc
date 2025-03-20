@@ -1,0 +1,16 @@
+numpy
+torch
+transformers
+spacy
+nltk
+farm-haystack
+llama-index
+neo4j
+py2neo
+pdfkit
+PyYAML
+networkx
+matplotlib
+scikit-learn
+requests
+reportlab    # <-- Add this line

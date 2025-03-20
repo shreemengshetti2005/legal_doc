@@ -1,0 +1,68 @@
+2025-03-20 20:29:36,530 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:29:37,454 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:29:37,454 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:29:59,508 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:30:00,088 - __main__ - ERROR - Error processing document: '<' not supported between instances of 'tuple' and 'int'
+2025-03-20 20:32:22,885 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:32:23,795 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:32:23,795 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:32:46,586 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:32:47,199 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:32:47,206 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:32:47,210 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:32:47,358 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:32:47,359 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:34:28,081 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:34:29,006 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:34:29,006 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:34:49,689 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:34:50,631 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:34:50,651 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:34:50,653 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:34:50,815 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:34:50,816 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:37:35,954 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:37:36,967 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:37:36,967 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:37:56,611 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:37:57,214 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:37:57,214 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:37:57,214 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:37:57,342 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:37:57,343 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:39:20,835 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:39:21,752 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:39:21,752 - models.mistral - INFO - Using cached Mistral summary
+2025-03-20 20:39:21,773 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:39:22,063 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:39:22,063 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:39:22,063 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:39:22,185 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:39:22,185 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:40:34,114 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:40:35,036 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:40:35,036 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:41:01,827 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:41:02,350 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:41:02,350 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:41:02,350 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:41:02,474 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:41:02,474 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:48:33,764 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:48:35,095 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:48:35,097 - models.mistral - WARNING - Document too long, truncating for API
+2025-03-20 20:48:57,253 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:48:57,761 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:48:57,761 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:48:57,761 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:48:57,948 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:48:57,948 - __main__ - INFO - Data stored in Neo4j for sample1
+2025-03-20 20:55:03,751 - __main__ - INFO - Extracting text from ./data/sample1.pdf
+2025-03-20 20:55:04,885 - __main__ - INFO - Generating summary with Mistral
+2025-03-20 20:55:04,885 - models.mistral - INFO - Using cached Mistral summary
+2025-03-20 20:55:04,885 - __main__ - INFO - Extracting insights with DeepSeek
+2025-03-20 20:55:05,477 - __main__ - INFO - Risk assessment: 82 points (High risk)
+2025-03-20 20:55:05,477 - utils.export_handler - ERROR - Failed to export PDF: "Style 'Heading1' already defined in stylesheet"
+2025-03-20 20:55:05,477 - utils.export_handler - INFO - Exported analysis to text: ./export/sample1_analysis.txt
+2025-03-20 20:55:05,626 - utils.risk_scoring - ERROR - Failed to store in Neo4j: Cannot connect to any known routers
+2025-03-20 20:55:05,626 - __main__ - INFO - Data stored in Neo4j for sample1
