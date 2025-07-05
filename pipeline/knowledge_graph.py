@@ -1,6 +1,6 @@
 from py2neo import Graph
 
-def create_graph(uri, user, password):
+def create_graph(uri, user, password) :
     graph = Graph(uri, auth=(user, password))
     return graph
 
