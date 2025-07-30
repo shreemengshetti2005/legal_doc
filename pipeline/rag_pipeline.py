@@ -1,6 +1,6 @@
 from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader
 
-def build_rag_pipeline(documents):
+def build_rag_pipeline(documents) :
     reader = SimpleDirectoryReader(documents)
     docs = reader.load_data()
     index = GPTVectorStoreIndex.from_documents(docs)
